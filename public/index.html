@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/public/css/style.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <form action="" class="sing_in-form">
+        <div class="form-title">Sign In</div>
+
+        <div class="inputs-container">
+          <div class="email-container">
+            <label class="label-style" for="emailInp">Email:</label>
+            <input
+              class="input-style"
+              type="email"
+              placeholder="Email Address"
+              name="emailInp"
+              id=""
+            />
+          </div>
+          <div class="password-container">
+            <label class="label-style" for="emailInp">Password:</label>
+            <input
+              class="input-style password-inp"
+              type="password"
+              placeholder="Password"
+              name="passwordInp"
+              id=""
+            />
+            <img class="closed_eye-icon" src="./imgs/closedEye.svg" alt="" />
+            <img class="opened_eye-icon hide" src="./imgs/openEye.svg" alt="" />
+          </div>
+          <div class="confirm_password-container">
+            <label class="label-style" for="emailInp">Confirm Password:</label>
+            <input
+              class="input-style confirm_password-inp"
+              type="password"
+              placeholder="confirm password"
+              name="passwordInpCheck"
+              id=""
+            />
+          </div>
+        </div>
+        <button class="sing_in-button">Sign In &rarr;</button>
+      </form>
+    </div>
+    <script src="./javascript/main.js"></script>
+  </body>
+</html>
